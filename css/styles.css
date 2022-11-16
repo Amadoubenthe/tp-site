@@ -11832,17 +11832,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#diacha .diacha-item {
+#site .site-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#diacha .diacha-item .diacha-link {
+#site .site-item .site-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#diacha .diacha-item .diacha-link .diacha-hover {
+#site .site-item .site-link .site-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11853,19 +11853,19 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#diacha .diacha-item .diacha-link .diacha-hover .diacha-hover-content {
+#site .site-item .site-link .site-hover .site-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#diacha .diacha-item .diacha-link:hover .diacha-hover {
+#site .site-item .site-link:hover .site-hover {
   opacity: 1;
 }
-#diacha .diacha-item .diacha-caption {
+#site .site-item .site-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-#diacha .diacha-item .diacha-caption .diacha-caption-heading {
+#site .site-item .site-caption .site-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -11873,44 +11873,44 @@ header.masthead .masthead-heading {
   font-weight: 700;
   margin-bottom: 0;
 }
-#diacha .diacha-item .diacha-caption .diacha-caption-subheading {
+#site .site-item .site-caption .site-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.diacha-modal .modal-dialog {
+.site-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
 }
-.diacha-modal .modal-content {
+.site-modal .modal-content {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
 }
-.diacha-modal .modal-content h2,
-.diacha-modal .modal-content .h2 {
+.site-modal .modal-content h2,
+.site-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 3rem;
 }
-.diacha-modal .modal-content p.item-intro {
+.site-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.diacha-modal .modal-content p {
+.site-modal .modal-content p {
   margin-bottom: 2rem;
 }
-.diacha-modal .modal-content ul.list-inline {
+.site-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.diacha-modal .modal-content img {
+.site-modal .modal-content img {
   margin-bottom: 2rem;
 }
-.diacha-modal .close-modal {
+.site-modal .close-modal {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -11919,7 +11919,7 @@ header.masthead .masthead-heading {
   cursor: pointer;
   background-color: transparent;
 }
-.diacha-modal .close-modal:hover {
+.site-modal .close-modal:hover {
   opacity: 0.3;
 }
 
